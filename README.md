@@ -1,9 +1,43 @@
 # Data-structures-and-algorithms
 Basic Implementations of data structures and algorithms
 
-# Sorting-Algo
-Sorting Algo
-Certainly! Let's delve into some fundamental concepts related to algorithmic analysis, including Big O notation and related terms.
+===========================================================================================
+Basic Data Structure 
+------------------------------
+Array
+Linked List
+stack
+queue
+Hash table
+
+hierarchical dsa
+
+Tree,
+ - Binary tree
+ - AVL Tree
+ - 2-3 trees, B+ B- trees, Expression Trees, Red-Black Tree, Splay Trees
+Heaps
+Tries
+Graphs
+Undirected Graphs
+
+---------------------------------------------------------------------------------
+DSA
+Sorting 
+ - Bubble Sort 
+ - Selection sort
+ - insertation sort
+ - Merge sort
+ - Quick Sort
+ - Counting Sort
+ - Bucket Sort
+Searching
+- Linear
+- Binary
+- Trenary
+- jump search
+- Exponential search
+---------------------------------------------------------------------------------
 
 1. **Big O Notation:**
    - **Definition:** Big O notation is a way to describe the upper bound of the running time or space complexity of an algorithm in terms of the input size. It provides an asymptotic upper bound, expressing how the performance of an algorithm scales with input size.
