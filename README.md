@@ -3,11 +3,11 @@ Basic Implementations of data structures and algorithms
 
 Basic Data Structure 
 ------------------------------
-Array
-Linked List
-stack
-queue
-Hash table
+- Array,
+- Linked List
+- stack
+- queue
+- Hash table
 
 hierarchical dsa
 
@@ -15,10 +15,10 @@ Tree,
  - Binary tree
  - AVL Tree
  - 2-3 trees, B+ B- trees, Expression Trees, Red-Black Tree, Splay Trees
-Heaps
-Tries
-Graphs
-Undirected Graphs
+- Heaps
+- Tries
+- Graphs
+- Undirected Graphs
 
 ---------------------------------------------------------------------------------
 DSA
