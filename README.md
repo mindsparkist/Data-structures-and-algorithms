@@ -114,3 +114,36 @@ Imagine you're a network engineer tasked with connecting cities with cables. You
 
 Both Prim's and Kruskal's algorithms are great tools for finding MSTs. As an entry-level software engineer, understanding their core concepts and which is better suited for different graph densities will be valuable for tackling network-related problems!
 
+Both Dijkstra's algorithm and A* algorithm are used to find the shortest path through a map-like structure called a graph. However, they differ in their approach:
+
+**Dijkstra's Algorithm:**
+
+* Imagine you're lost in a maze and want to find the quickest way out (the source being your starting point and the goal being the exit). 
+* Dijkstra's algorithm explores all possible paths outward from the starting point, one step at a time. 
+* At each step, it chooses the **neighboring path** with the **shortest distance** so far. 
+* It keeps track of the total distance traveled on each path. 
+* This process continues until it reaches every point in the maze, effectively finding the shortest paths to all exits (or all points in the graph).
+
+**A* Algorithm:**
+
+* Think of A* as a more informed version of Dijkstra's algorithm. It also wants to find the shortest path from a starting point to a specific destination.
+* But here's the twist: A* uses a **heuristic** (an educated guess) to estimate the remaining distance to the destination from any point in the maze.
+* This heuristic guides A* towards the most promising paths, prioritizing those that seem closer to the goal based on the estimate.
+* While A* still explores multiple paths, the heuristic helps it focus on the ones likely to lead to the shortest route overall.
+
+**Choosing the Right Algorithm:**
+
+* Use Dijkstra's algorithm if you need to find the shortest path to **every** point from a starting point. 
+* A* is better suited when you have a specific **destination** in mind and want to find the shortest path there. It's generally faster for this purpose, especially with a good heuristic function.
+
+**Here's an analogy:**
+
+* Imagine you're in a new city and want to find the closest coffee shop. 
+* Dijkstra's algorithm would ask every person on the street for directions to a coffee shop, eventually finding the closest one. 
+* A*, on the other hand, might ask for directions but would prioritize people who look like they're carrying coffee cups, making the search for the closest shop more efficient.
+
+**Remember:**
+
+* Dijkstra explores all paths and guarantees the shortest path to every point (but can be slower for specific destinations).
+* A* uses a heuristic to prioritize promising paths, making it faster for finding the shortest path to a specific destination (but optimality depends on the heuristic function).
+
